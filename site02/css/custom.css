@@ -1,0 +1,35 @@
+.panel-heading {
+  background-color: #ececec;
+}
+.panel-body {
+  background-color: #fff;
+  border-style: solid;
+  border-width: thin;
+  border-color: #ececec;
+}
+
+.container {
+  align: center;
+  padding-bottom: 1em;
+}
+/*
+.box-content {
+  border-bottom: 1px solid #ececec;
+}
+*/
+hr.style1 {
+  width: 50%;
+}
+.btn-primary {
+  border-radius: 25px;
+  background-color:#446582;
+  border-color: none;
+}
+.btn-primary:hover {
+  background-color: #d96c1c;
+  border-color:#446582;
+}
+.input-group-addon {
+  background-color: #446582;
+  color: #fff;
+}
