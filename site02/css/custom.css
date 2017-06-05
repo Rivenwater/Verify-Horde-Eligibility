@@ -4,9 +4,12 @@
 .panel-body {
   background-color: #fff;
   border-style: solid;
-  border-width: thin;
+  border-width: medium;
   border-color: #ececec;
 }
+.panel {
+    margin-bottom: 0;
+  }
 
 .container {
   align: center;
@@ -24,6 +27,7 @@ hr.style1 {
   border-radius: 25px;
   background-color:#446582;
   border-color: none;
+  margin-bottom: 16px;
 }
 .btn-primary:hover {
   background-color: #d96c1c;
@@ -33,3 +37,42 @@ hr.style1 {
   background-color: #446582;
   color: #fff;
 }
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .nav-tabs {
+    border-bottom: 0px;
+  background: #ced6dc;}
+
+  .nav-tabs>li {
+      width: 50%;
+  }
+
+  a {
+      color: #446582;
+    }
+  .panel-body > .h4 {
+    color: blue;
+  }
+
+  .round {
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      line-height: 30px;
+      border-radius: 15px;
+      background-color: #446582;
+      color: #446582;
+  }
+  .round a[aria-expanded="true"]{
+      background-color: #42DCA3;
+      display: inline-block;
+      height: 20px;
+      width: 20px;
+      line-height: 30px;
+      border-radius: 15px;
+      background-color: #fff;
+      color: #446582;
+  }
